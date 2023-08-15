@@ -11,9 +11,16 @@
         saltarLinea();
     }
 
+    function multiplicar(position1, position2){
+        return position1 * position2;
+    }
+
     var numero1 = prompt("Digite el primer número");
     var numero2 = prompt("Digite el segundo número");
+    var multiplica = multiplicar(numero1, numero2)
 
-    mostrar("El valor de " + numero1 + " veces " + numero2 + " es: " + (numero1 * numero2));
+    mostrar("El valor de " + numero1 + " veces " + numero2 + " es: " + multiplica);
+    saltarLinea();
+    mostrar("Muchas Gracias");
 
 </script>
